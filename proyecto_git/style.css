@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Dancing+Script:wght@700&display=swap');
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: azure;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+    
+    
+}
+ 
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+}
+
+
+nav {
+    background-color: lightblue;
+    height: 40px;
+    border-radius: 0 0 10px 10px;
+    float: right;
+    width: 100%;
+    text-align: center;
+    
+    
+}
+
+nav ul li {
+    display: inline;
+    padding: 20px 0px;
+    margin: 40px;
+    font-family:'Comfortaa', cursive;
+    font-size: 20px;
+    
+
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+
+
+
+div img {
+    width: 28%;
+    height: 500px;
+    margin: 29px;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px;
+    text-align: justify;
+    font-family: 'Comfortaa', cursive ;
+}
+
+.lista_dos {
+    text-align: center;
+    font-family: 'Comfortaa', cursive ;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nosotras {
+    margin: 50px 50px;
+}
+
+form {
+    font-family: 'Comfortaa', cursive ;
+    font-size: 15px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+
+
+footer{
+    background-color: lightblue;
+    display: block;
+    
+    margin-top: 20px;
+    
+    
+}
+
+.enviar {
+    margin-top: 10px;
+}
