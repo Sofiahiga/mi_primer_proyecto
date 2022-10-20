@@ -103,3 +103,7 @@ footer{
 .enviar {
     margin-top: 10px;
 }
+
+fieldset {
+    border: none
+}
