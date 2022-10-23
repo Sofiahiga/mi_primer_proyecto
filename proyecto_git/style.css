@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;600&family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+
+}
+html {
+    height: 100%;
+    overflow-x: hidden;
+}
+
 body {
+    min-height: 100vh;
+    width: 100%;
     background-color: aquamarine;
 }
 
@@ -10,7 +25,7 @@ header {
     height: 100px;
     text-align: center;
     border-radius: 10px 10px 0 0;
-    
+    margin-top: 10px;
     
 }
  
@@ -24,9 +39,15 @@ nav {
     background-color: lightblue;
     height: 40px;
     border-radius: 0 0 10px 10px;
-    float: right;
     width: 100%;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+   
     
     
 }
@@ -48,14 +69,27 @@ nav ul li a {
 
 
 
-div img {
-    width: 28%;
-    height: 500px;
-    margin: 29px;
-    border-radius: 10px;
+.album {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    
+    
 }
 
-section {
+.imagenes {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+.conocenos {
     margin: 20px;
     text-align: justify;
     font-family: 'Comfortaa', cursive ;
@@ -104,10 +138,12 @@ footer{
 
 .enviar {
     margin-top: 10px;
+    padding: 10px;
 }
 
 fieldset {
-    border: none
+    border: none;
+    padding: 10px;
 }
 
 .redes {
